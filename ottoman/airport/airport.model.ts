@@ -17,5 +17,4 @@ const AirportSchema = new Schema({
   tz: { type: String, required: true },
 });
 
-console.log(getOttomanInstances());
 export const Airport = model('airport', AirportSchema);
